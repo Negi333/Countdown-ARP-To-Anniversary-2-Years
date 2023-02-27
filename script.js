@@ -13,7 +13,7 @@ function countdown() {
 
     if (totalSeconds <= 0) {
         // Redirect to another web page when the countdown is over
-        window.location.href = 'https://google.com';
+        window.location.href = 'https://arp-anniversary-2-years.netlify.app';
     } else {
         const days = Math.floor(totalSeconds / 3600 / 24);
         const hours = Math.floor(totalSeconds / 3600) % 24;
